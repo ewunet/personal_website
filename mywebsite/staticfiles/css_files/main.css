@@ -1,19 +1,5 @@
-.header {
-	text-align: right;
-
-	font-display: !important;
-	font-size: large;
-
-	color: darkred;
-}
-
-.header h1 {
-	margin-top: 0px;
-	
-}
-
 #pagewrapper {
-	border: 1px pink solid;
+	border: 2px black solid;
 	min-height: 500px;
 }
 
@@ -21,8 +7,29 @@
 	width: 500px;
 	margin-left: auto;
 	margin-right: auto;
-
+	margin-top: auto;
+	margin-bottom: auto;
 }
 
+.heading {
+	text-align: center;	
+	border:  1px black solid;
+}
 
+.links {
+	text-align: center;
+	font-family: monospace;
+	float: left;
+	border:solid black;
+	border-radius: 20px 20px 20px 20px;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 12px;
+}
 
+.links:hover {
+	color: white;
+	background-color: black;
+	border: solid hotpink;
+}
