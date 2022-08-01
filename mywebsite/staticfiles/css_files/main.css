@@ -1,21 +1,24 @@
-#pagewrapper {
+.container {
 	border: 2px black solid;
-	min-height: 450px;
+	min-height: 470px;
 	min-width: 800px;
 	padding:  3px;
+
+	font-size: 15px;
 }
 
-#wholepage {
+/*#wholepage {
 	width: 800px;
 	font-family: monospace; 
 	font-size: 15px;
 	margin:  auto;
-}
+}*/
 
 .heading {
 	text-align: center;	
 	border-bottom:  1px black solid;
-	font-size: 20px;
+	font-size: 14px;
+	font-style: italic;
 }
 
 .left-col {
@@ -38,9 +41,9 @@
 	border:solid black;
 	border-radius: 20px 20px 20px 20px;
     color: black;
-    padding: 20px 28px;
-    text-decoration: none;
+    padding: 26px 32px;
     font-size: 15px;
+    text-decoration: none;
 }
 
 .links:hover {
