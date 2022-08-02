@@ -14,11 +14,13 @@
 		<link href="{% static '/css_files/main.css' %}" rel = "stylesheet" type="text/css">
 	</head>
 
-	<div id="container">
+<div class="container">
 	<body>
+		<div class="content_square">
 		<div class="heading"><h1>welcome!</h1></div>
 
-		<div class="left-col"></div>
+		<div class="left-col">
+			<img class="self_portrait" src="{% static 'images/ermes.JPG' %}" alt="not actually me lol. just a placeholder pic"></div>
 		<div class="center-col">
 			<ul>
 				<li>hello! my name is ewunet endalk, and i am a senior at duke university.</li>
@@ -28,7 +30,7 @@
 		</div>
 		<div class="right-col">
 			<ul> 
-				<li>in my free time i enjoy listening to music, reading books, and drawing.</li>
+				<li>in my free time i enjoy listening to music, reading books, and drawing</li>
 
 				<li>check out the links below if you want to learn more about me! (o˘◡˘o)</li>
 			</ul>
@@ -38,10 +40,11 @@
 			<a href="https://github.com/ewunet"  class="links">github</a> 
 			<a href=" www.linkedin.com/in/ewunetendalk" class="links">linkedin</a>
 		</div>
+	</div> <!-- closing tag for div content square element -->
 	</body>
 
-	<div class="footer"> all graphics handdrawn by me!</div>
-	</div> <!-- closing tag for div container element -->
+	<div class="footer"> *all graphics handdrawn by me!</div>
+</div>
 </html> 
 
 
